@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+}
+main{
+    display: flex;
+}
+#wwa{
+    width: 50%;
+}
+#wwb{
+    width: 20%;
+}
+#wwc{
+    width: 30%;
+}
+@media(max-width: 700px){
+   main{
+    display: block; 
+  }
+}
